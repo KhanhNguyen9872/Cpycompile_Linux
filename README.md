@@ -6,7 +6,7 @@ A simple .py/.pyc compile to binary execute for Anti-Decode
 # How to use?
 1. Install curl, git, clang, make, unzip, python3.11 (apt or dnf)
 2. `git clone https://github.com/KhanhNguyen9872/Cpycompile_Linux/`
-3. Set permission for folder using `chmod 775 Cpycompile_Linux -r`
+3. Set permission for folder using `chmod 775 Cpycompile_Linux -R`
 4. cd to folder `cd Cpycompile_Linux`
 5. Use `make termux` or `make linux`
 6. Run Cpycompile using `./Cpycompile` (add `sudo` for run as root if required)

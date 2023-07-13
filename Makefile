@@ -17,4 +17,4 @@ run:
 	@rm -rf build
 clean:
 	@echo "Clean build...."
-	@rm -rf build build_termux Cpycompile client 2>/dev/null
+	@rm -rf build build_termux Cpycompile client __pycache__ 2>/dev/null
