@@ -14,12 +14,12 @@ A simple .py/.pyc compile to binary execute for Anti-Decode
 
 # Install Cpycompile for Termux:
 ```
-echo "deb https://packages-cf.termux.dev/apt/termux-main stable main" > ~/../usr/etc/apt/source.list; apt update -y; apt upgrade -y; apt install python3 unzip git clang make -y; rm -rf ./Cpycompile_Linux 2>/dev/null; git clone https://github.com/KhanhNguyen9872/Cpycompile_Linux; chmod 777 Cpycompile_Linux -R; cd Cpycompile_Linux; make termux -j$(nproc);
+echo "deb https://packages-cf.termux.dev/apt/termux-main stable main" > ~/../usr/etc/apt/source.list; apt update -y; apt upgrade -y; apt update -y; apt install python3 unzip git clang make -y; rm -rf ./Cpycompile_Linux 2>/dev/null; git clone https://github.com/KhanhNguyen9872/Cpycompile_Linux; chmod 777 Cpycompile_Linux -R; cd Cpycompile_Linux; make termux -j$(nproc);
 ```
 
 # Install Cpycompile for Linux:
 ```
-sudo apt update -y; sudo apt upgrade -y; sudo apt install python3 unzip git clang make -y; rm -rf ./Cpycompile_Linux 2>/dev/null; git clone https://github.com/KhanhNguyen9872/Cpycompile_Linux; sudo chmod 777 Cpycompile_Linux -R; cd Cpycompile_Linux; make linux -j$(nproc);
+sudo apt update -y; sudo apt upgrade -y; sudo apt update -y; sudo apt install python3 unzip git clang make -y; rm -rf ./Cpycompile_Linux 2>/dev/null; git clone https://github.com/KhanhNguyen9872/Cpycompile_Linux; sudo chmod 777 Cpycompile_Linux -R; cd Cpycompile_Linux; make linux -j$(nproc);
 ```
 
 # Run Cpycompile
